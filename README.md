@@ -46,7 +46,7 @@ local_src/
      chmod +x launch_instance.sh
      ./launch_instance.sh
      ```
-   - The script will output the instance's public IP and provide the SSH command to connect.
+   - The script will output the instance's public IP and provide the SSH command to connect. It will launch an r5.16xlarge instance with 500gb storage.
 
 2. **Configure the EC2 Instance:**
    - SSH into the EC2 instance using the provided command.
